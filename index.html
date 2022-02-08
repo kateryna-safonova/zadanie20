@@ -9,17 +9,18 @@
 <body>
     <nav>
         <ul>
-            <li><a href="About us">About us</a></li>
-            <li><a href="Skills">Skills</a></li>
-            <li><a href="Portfolio">Portfolio</a></li>
-            <li><a href="Contact">Contact</a></li>
+            <li><a href="#about us">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-  <section id="about">
+  <section id="about-us">
       <h1>About us</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem corporis dolores perferendis. Dolore quia modi ut iure accusantium enim aspernatur corrupti harum optio tenetur reiciendis quibusdam debitis esse, earum officiis?</p>
   </section>
-  <section id="Skills">
+  
+  <section id="skills">
       <h1>Skills</h1>
       <div class="skill">
           <h1>Skills 1</h1>
@@ -38,22 +39,31 @@
           <p>Doloribus commodi voluptatibus magni itaque consequuntur perspiciatis quo facilis velit placeat sint, nihil, dignissimos esse minus ex fugit rerum aspernatur perferendis at consectetur libero! Dolores atque ea suscipit minus placeat.</p>
       </div>
   </section>
-  <section id="Portfolio">
+
+  <section id="portfolio">
       <h1>Portfolio</h1>
       <div class="portfolio-item"><img src="1.jpeg" alt="Dog"></div>
       <div class="portfolio-item"><img src="2.png" alt="Cat"></div>
       <div class="portfolio-item"><img src="3.jpeg" alt="Bird"></div>
   </section>
-  <section id="Contact">
+
+  <section id="contact">
       <h1>Kateryna Safonova</h1>
-      <a href="mailto:katrin.safonowa@gmail.com">katrin.safonowa@gmail.com</a>
+      <address>
+        Written by <a href="mailto:katrin.safonowa@gmail.com">Kateryna Safonova</a><br>
+        Visit us at:<br>
+        Site ekspert<br>
+        Kolejowa 40/15<br>
+        Wroclaw
+      </address>
+     
     <form action="/action_page.php">
         <label for="fname">Imię:</label>
-        <input type="text">
+        <input type="text" id="fname">
         <label for="temat">Temat:</label>
-        <input type="text">
-        <label for="Wiadomość">Wiadomość:</label>
-        <input type="text">
+        <input type="text" id="temat">
+        <label for="Wiadomosc">Wiadomość:</label>
+        <input type="text" id="Wiadomosc">
         <input type="button" value="wyślij">
     </form>  
   </section>  
